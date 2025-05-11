@@ -27,13 +27,9 @@ The frontend is built with modern JavaScript frameworks (likely React) and conta
 client/
 
 ├── .env # Environment variables
-
 ├── .gitignore # Git ignored files
-
 ├── package.json # Project metadata and dependencies
-
 ├── public/ # Static assets (HTML, images)
-
 └── src/ # Source code (components, styles, logic)
 
 
@@ -44,21 +40,13 @@ The backend is built using Node.js and Express, structured as follows:
 server/
 
 ├── .env # Environment variables
-
 ├── config/ # Configuration files (e.g., DB settings)
-
 ├── controllers/ # Business logic for API handling
-
 ├── middlewares/ # Middleware functions
-
 ├── models/ # Database schema definitions
-
 ├── routes/ # RESTful API endpoint definitions
-
 ├── seed.js # Initial database seeding script
-
 ├── index.js # Server entry point
-
 └── vercel.json # Deployment config (for Vercel)
 
 
