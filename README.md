@@ -24,28 +24,13 @@ This is a full-stack **Inventory Management System** designed to streamline and 
 
 The frontend is built with modern JavaScript frameworks (likely React) and contains the following:
 
-client/
-├── .env                # Environment variables
-├── .gitignore          # Git ignored files
-├── package.json        # Project metadata and dependencies
-├── public/             # Static assets (HTML, images)
-└── src/                # Source code (components, styles, logic)
+<pre> ```plaintext client/ ├── .env # Environment variables ├── .gitignore # Git ignored files ├── package.json # Project metadata and dependencies ├── public/ # Static assets (HTML, images) └── src/ # Source code (components, styles, logic) ``` </pre>
 
 ### 2. Server (Backend)
 
 The backend is built using Node.js and Express, structured as follows:
 
-server/
-├── .env                # Environment variables
-├── config/             # Configuration files (e.g., DB settings)
-├── controllers/        # Business logic for API handling
-├── middlewares/        # Middleware functions
-├── models/             # Database schema definitions
-├── routes/             # RESTful API endpoint definitions
-├── seed.js             # Initial database seeding script
-├── index.js            # Server entry point
-└── vercel.json         # Deployment config (for Vercel)
-
+<pre> ```plaintext server/ ├── .env # Environment variables ├── config/ # Configuration files (e.g., DB settings) ├── controllers/ # Business logic for API handling ├── middlewares/ # Middleware functions ├── models/ # Database schema definitions ├── routes/ # RESTful API endpoint definitions ├── seed.js # Initial database seeding script ├── index.js # Server entry point └── vercel.json # Deployment config (for Vercel) ``` </pre>
 
 ---
 
